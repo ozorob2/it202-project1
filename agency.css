@@ -1,6 +1,6 @@
 /*!
- * Start Bootstrap - Agency v5.0.4 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2018 Start Bootstrap
+ * Start Bootstrap - Agency v5.0.5 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #D50032;
 }
 
 a:hover {
-  color: #fec503;
+  color: #D50032;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #D50032 !important;
 }
 
 h1,
@@ -71,13 +71,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #D50032;
+  border-color: #D50032;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #D50032 !important;
+  border-color: #D50032 !important;
   color: white;
 }
 
@@ -87,7 +87,7 @@ section h3.section-subheading {
 }
 
 ::selection {
-  background: #fed136;
+  background: #D50032;
   text-shadow: none;
 }
 
@@ -99,8 +99,10 @@ img::-moz-selection {
   background: transparent;
 }
 
+.carousel-item { height: 65vh; min-height: 300px; }
+
 #mainNav {
-  background-color: #212529;
+  background-color: #001E62;
 }
 
 #mainNav .navbar-toggler {
@@ -108,19 +110,19 @@ img::-moz-selection {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: black;
+  color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #D50032;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #D50032;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #D50032;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -128,12 +130,12 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: black;
+  color: white;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #D50032;
 }
 
 @media (min-width: 992px) {
@@ -148,23 +150,19 @@ img::-moz-selection {
   #mainNav .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+    transition: all 0.1s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
-  #mainNav.navbar-shrink {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: black;
-  }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+    background-color: #001E62 !important;
   }
 }
 
-carousel.masthead {
+header.masthead {
   text-align: center;
   color: white;
   background-image: url("../img/header-bg.jpg");
@@ -174,12 +172,12 @@ carousel.masthead {
   background-size: cover;
 }
 
-carousel.masthead .intro-text {
+header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
 }
 
-carousel.masthead .intro-text .intro-lead-in {
+header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
@@ -196,18 +194,18 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
-  carousel.masthead .intro-text {
+  header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
   }
-  carousel.masthead .intro-text .intro-lead-in {
+  header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
-  carousel.masthead .intro-text .intro-heading {
+  header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
@@ -569,10 +567,6 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
 }
 
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-}
 .team-member img {
   width: 225px;
   height: 225px;
@@ -686,5 +680,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #D50032;
 }

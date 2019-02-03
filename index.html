@@ -3,7 +3,7 @@
 
   <head> 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="description" content="LILPUMP's Site">
     <meta name="author" content="Omar Zorob">
 
@@ -18,17 +18,17 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <!-- Custom styles for this template -->
-    <link href="https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css" rel="stylesheet">      
-    <link href="https://blackrockdigital.github.io/startbootstrap-modern-business/css/modern-business.css" rel="stylesheet">
+    <link href="agency.css" rel="stylesheet">      
 
   </head>
 
-    <body id="page-top">
+  <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">LIL PUMP</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,9 +50,6 @@
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#comingsoon">Coming Soon</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
@@ -61,33 +58,38 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('https://ssl.ulximg.com/image/500x500crop/cover/1548954856_d28c7a48b708bc2477dad5fc0942c1c4.jpg/a14845edf1f2761bca8e39ae7a4f4af6/1548954856_f491e241674de759fb7e41ef90021d20.jpg')">
+          <div class="carousel-item active" style="background-image: url('https://consequenceofsound.files.wordpress.com/2019/01/lil-pump-racks-on-racks-new-music-release-video.png')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>First Slide</h3>
-              <p>This is a description for the first slide.</p>
+              <h3>Racks on Racks OUT NOW!</h3>
+              <p>https://www.youtube.com/watch?v=ksX_Xkf3Ryg</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item" style="background-image: url('pumpShop.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
+              <h3>Shop Lil Pump</h3>
+              <href>unhappy.com</href>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item" style="background-image: url('https://www.filepicker.io/api/file/rg6szgnHRgeWzhAH1y7s/convert?dl=false&crop=0,0,768,768&quality=95&fit=scale&cache=true')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
+              <h3>Vote For PUMP</h3>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url('https://ssl.ulximg.com/image/500x500crop/cover/1548954856_d28c7a48b708bc2477dad5fc0942c1c4.jpg/a14845edf1f2761bca8e39ae7a4f4af6/1548954856_f491e241674de759fb7e41ef90021d20.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Harvard Dropout Coming Soon</h3>
+              <p>FEB 22nd</p>
             </div>
           </div>
         </div>
@@ -99,68 +101,50 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
-    </header>
+    </div>
 
     <!-- Services -->
     <section id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Services</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Streaming Services</h2>
+            <h3 class="section-subheading text-muted">Find my music on these streaming services!</h3>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <i class="fab fa-apple" style="font-size:128px;color:black"></i>
+            <h4 class="service-heading">Apple Music</h4>
+            <p class="text-muted">Find Lil Pump Music on Apple-Music at: https://itunes.apple.com/us/artist/lil-pump/1129587661</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <i class="fa fa-youtube" style="font-size:128px;color:red"></i>
+            <h4 class="service-heading">Youtube Music</h4>
+            <p class="text-muted">Find Lil Pump Music on Youtube-Music at: https://www.youtube.com/chan
+                nel/UC6pjHMC4QXMi4llCCjtDXWg</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <i class="fa fa-spotify" style="font-size:128px;color:green"></i>
+            <h4 class="service-heading">Spotify</h4>
+            <p class="text-muted">Find Lil Pump Music on Spotify at: https://open.spotify.com/artist/3wyVrVrFCkukjdVIdirGVY</p>
           </div>
             
           <div class="row text-center">
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <i class="fa fa-soundcloud" style="font-size:128px;color:orange"></i>
+            <h4 class="service-heading">Soundcloud</h4>
+            <p class="text-muted">Find Lil Pump Music on SoundCloud at: https://soundcloud.com/lilpump</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+              <i class="fa fa-align-left fa-fw fa-rotate-270" style="font-size:128px"></i>
+              <h4 class="service-heading">Deezer</h4>
+            <p class="text-muted">Find Lil Pump Music on Deezer at: https://www.deezer.com/en/artist/10668131</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <i class="fa fa-amazon" style="font-size:128px;color:orange"></i>
+            <h4 class="service-heading">Amazon Music</h4>
+            <p class="text-muted">Find Lil Pump Music on Amazon-Music at: https://www.amazon.com/Lil-Pump/e/B07CN8Y6NH</p>
           </div>
         </div>
       </div>
@@ -173,7 +157,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Lil Pump's Latest Releases</h3>
           </div>
         </div>
         <div class="row">
@@ -184,11 +168,11 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/01-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="https://ssl.ulximg.com/image/500x500crop/cover/1548954856_d28c7a48b708bc2477dad5fc0942c1c4.jpg/a14845edf1f2761bca8e39ae7a4f4af6/1548954856_f491e241674de759fb7e41ef90021d20.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
+              <h4>Racks on Racks</h4>
+              <p class="text-muted">Single</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 portfolio-item">
@@ -198,11 +182,11 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/02-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="https://i.scdn.co/image/d1d41242df1378e8eceec911ff4bc4bb9a03c284" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Explore</h4>
-              <p class="text-muted">Graphic Design</p>
+              <h4>Butterfly Doors</h4>
+              <p class="text-muted">Single</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 portfolio-item">
@@ -212,11 +196,11 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/03-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="https://t2.genius.com/unsafe/440x440/https%3A%2F%2Fimages.genius.com%2Faeec578a7b7af28b01bee50c2aa1fc68.1000x1000x1.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
+              <h4>Arms Around You</h4>
+              <p class="text-muted">Single</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 portfolio-item">
@@ -226,11 +210,11 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/04-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="https://ssl.ulximg.com/image/500x500crop/cover/1536326085_f0573ef5c038e554ef31e7d1032fa5ad.jpg/0244dbd38fc295078c92e37b17d9e081/1536326085_db38e87e3d3947fa2c65a3a2a995adff.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
+              <h4>I Love It</h4>
+              <p class="text-muted">Single</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 portfolio-item">
@@ -240,11 +224,11 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/05-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="https://media.customon.com/unsafe/600x600/img.customon.com/design/600/600/0a0909/48669/f884c3b6c4a6be189d03d160fee25149.png.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
+              <h4>Eesketit</h4>
+              <p class="text-muted">Single</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 portfolio-item">
@@ -254,11 +238,11 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/06-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/918ff3GZ6SL._SX522_.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
+              <h4>Lil Pump</h4>
+              <p class="text-muted">Album</p>
             </div>
           </div>
         </div>
@@ -490,8 +474,7 @@
         </div>
       </div>
     </section>  
-      
-    
+       
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -542,7 +525,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright © Your Website 2018</span>
+            <span class="copyright">Copyright © Omar Zorob 2019</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -593,14 +576,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/01-full.jpg" alt="">
+                  <h2 class="text-uppercase">Racks on Racks</h2>
+                  <a href="https://www.youtube.com/watch?v=ksX_Xkf3Ryg">Watch Here</a>
+                  <img class="img-fluid d-block mx-auto" src="https://ssl.ulximg.com/image/500x500crop/cover/1548954856_d28c7a48b708bc2477dad5fc0942c1c4.jpg/a14845edf1f2761bca8e39ae7a4f4af6/1548954856_f491e241674de759fb7e41ef90021d20.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
+                    <li>Date: January 2019</li>
+                    <li>Producer: Diablo on the Beat</li>
+                    <li>Category: Pop/Hip-Hop</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -627,14 +610,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/02-full.jpg" alt="">
+                  <h2 class="text-uppercase">Butterfly Doors</h2>
+                  <a href="https://www.youtube.com/watch?v=nS7iF0WlYYw">Watch Here</a>
+                  <img class="img-fluid d-block mx-auto" src="https://i.scdn.co/image/d1d41242df1378e8eceec911ff4bc4bb9a03c284" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                    <li>Date: December 2018</li>
+                    <li>Producor: CBMix</li>
+                    <li>Category: HipHop</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -661,14 +644,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/03-full.jpg" alt="">
+                  <h2 class="text-uppercase">Arms Around You</h2>
+                  <a href="https://www.youtube.com/watch?v=tLNOce4Y4uc">Watch Here</a>
+                  <img class="img-fluid d-block mx-auto" src="https://t2.genius.com/unsafe/440x440/https%3A%2F%2Fimages.genius.com%2Faeec578a7b7af28b01bee50c2aa1fc68.1000x1000x1.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
+                    <li>Date: November 2018</li>
+                    <li>Producer: Skrillex</li>
+                    <li>Category: Pop</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -695,14 +678,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/04-full.jpg" alt="">
+                  <h2 class="text-uppercase">I Love It</h2>
+                  <a href="https://www.youtube.com/watch?v=cwQgjq0mCdE">Watch Here</a>
+                  <img class="img-fluid d-block mx-auto" src="https://ssl.ulximg.com/image/500x500crop/cover/1536326085_f0573ef5c038e554ef31e7d1032fa5ad.jpg/0244dbd38fc295078c92e37b17d9e081/1536326085_db38e87e3d3947fa2c65a3a2a995adff.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
+                    <li>Date: September 2018</li>
+                    <li>Producer: Kanye West</li>
+                    <li>Category: Hip-Hop</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -729,14 +712,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/05-full.jpg" alt="">
+                  <h2 class="text-uppercase">Eesketit</h2>
+                  <a href="https://www.youtube.com/watch?v=DPxL7dO5XPc">Watch Here</a>
+                  <img class="img-fluid d-block mx-auto" src="https://media.customon.com/unsafe/600x600/img.customon.com/design/600/600/0a0909/48669/f884c3b6c4a6be189d03d160fee25149.png.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
+                    <li>Date: April 2018</li>
+                    <li>Producer: CB Mix</li>
+                    <li>Category: Hip-Hop</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -763,14 +746,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/06-full.jpg" alt="">
+                  <h2 class="text-uppercase">Lil Pump</h2>
+                  <a href="https://open.spotify.com/album/2VVvm4zJlUQm9XmBCvGN6z">Listen Here</a>
+                  <img class="img-fluid d-block mx-auto" src="https://images-na.ssl-images-amazon.com/images/I/918ff3GZ6SL._SX522_.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
+                    <li>Date: October 2017</li>
+                    <li>Producer: CBMiX</li>
+                    <li>Category: Hip-Hop</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>

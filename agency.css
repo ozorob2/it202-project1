@@ -45,7 +45,17 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 
+.portfolio-caption {
+  background-color: #001E62 !important;
+  color: #00B5E2 !important;
+}
+
+.text-muted {
+    color: #00B5E2 !important;
+}
+
 section h3.section-subheading {
+  color:#00B5E2 !important;
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
@@ -71,8 +81,8 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #D50032;
-  border-color: #D50032;
+  background-color: #001E62;
+  border-color: #001E62;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -102,10 +112,19 @@ img::-moz-selection {
 #mainNav {
   position: fixed;
   background-color: #001E62;
-  z-index: 100;
+  z-index: 100000;
 }
 
-#mainNav .navbar-toggler {
+@media (min-width: 992px){
+    
+    #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #212529;
+    }
+}
+
+#mainNav .navbar-toggler .navbar-shrink {
   font-size: 12px;
   right: 0;
   padding: 13px;
@@ -130,25 +149,31 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #001E62;
+  color: #D50032;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #D50032;
+    border: 1px #D50032; 
+    border-radius: 0.25rem;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #D50032;
 }
 
-.nav-colored { background-color:#000; }
-.nav-transparent { background-color:transparent;}
-
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: #001E62;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -168,7 +193,7 @@ img::-moz-selection {
 .carousel-item {
   background-color: black;
   position:relative;
-  height: 65vh;
+  height: 600px;
   background-attachment: scroll;
   z-index: -1;
 }
@@ -542,8 +567,49 @@ img::-moz-selection {
   margin-top: 0;
 }
 
+section#services {
+  color: white !important;
+  background-color: #D50032 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section#portfolio {
+  color: white !important;
+  background-color: #001E62 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section#about {
+  color: white !important;
+  background-color: #D50032 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section#team {
+  color: white !important;
+  background-color: #001E62 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section#clients {
+  background-color: #D50032 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section#comingsoon {
+  color: white !important;
+  background-color: #001E62 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 section#contact {
-  background-color: #212529;
+  background-color: #D50032;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -603,9 +669,11 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #001E62;
 }
 
 footer span.copyright {
+  color:#D50032;
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
@@ -635,7 +703,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #D50032;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
